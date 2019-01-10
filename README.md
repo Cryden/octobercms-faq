@@ -6,8 +6,9 @@
     <img width=100% src="assets/images/cover.jpg">
 </div>
 
+---
 
-[О проекте](structure.md)
+### [О проекте](structure.md)
 
 ---
 
