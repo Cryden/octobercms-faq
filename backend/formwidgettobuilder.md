@@ -42,7 +42,9 @@ public function boot()
 
 ! Важно ! Формвиджет который будет отображаться в дальнейшем в формах, отличается от формвиджета в Builder.
 
-Далее, создаем папку formwidgets, в ней TestBuilder.php 
+Далее, создаем папку formwidgets, в ней TestBuilder.php
+
+! Важно ! Не забудьте создать свой формвиджет Test.php, который будет отображаться в формах
 
 ```
 <?php namespace Crydesign\Socializer\FormWidgets;
