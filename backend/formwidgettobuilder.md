@@ -27,8 +27,8 @@ public function boot()
                     'test description',
                     'default',
                     'icon-pencil-square',
+                    $controlLibrary->getStandardProperties(['stretch'], $properties),
                     'CRYDEsigN\Socializer\FormWidgets\TestBuilder', // Указываем путь до своего формвиджета, в нашем случае это TestBuilder.php
-                    $controlLibrary->getStandardProperties(['stretch'], $properties)
                 );
             }
 
